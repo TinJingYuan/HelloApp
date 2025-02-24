@@ -6,7 +6,9 @@
         {
             Console.WriteLine("Hello, World!");
             int a, b;
-            string[] intput = Console.ReadLine().Split();
+            string[] input = Console.ReadLine().Split();
+            a = int.Parse(input[0]);
+            b = int.Parse(input[1]);
         }
     }
 }
